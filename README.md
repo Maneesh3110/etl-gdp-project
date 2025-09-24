@@ -20,20 +20,21 @@ The pipeline fetches GDP data from Wikipedia, cleans and transforms it, saves th
 
 ## Project Structure
 
+```text
 etl-gdp-project/
-│── etl.py # ETL functions
-│── main.py # Pipeline runner
-│── requirements.txt # Python dependencies
-│── README.md # Project documentation
-│── outputs/ # CSV, DB, plots
-│── etl_project_log.txt # ETL logs
-│── .gitignore # Files to ignore in Git
+│── etl.py                # ETL functions
+│── main.py               # Pipeline runner
+│── requirements.txt      # Python dependencies
+│── README.md             # Project documentation
+│── outputs/              # CSV, DB, plots
+│── etl_project_log.txt   # ETL logs
+│── .gitignore            # Files to ignore in Git
+```
 
 1. Clone the repository:
-
-``bash
 git clone https://github.com/Maneesh3110/etl-gdp-project.git
 cd etl-gdp-project
+
 2. Install dependencies:
 python3 -m pip install -r requirements.txt
 
