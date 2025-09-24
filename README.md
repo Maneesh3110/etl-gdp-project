@@ -38,7 +38,7 @@ cd etl-gdp-project
 2. Install dependencies:
 python3 -m pip install -r requirements.txt
 
-**Usage**
+**Usage** <br>
 Run the ETL pipeline:
 python3 main.py
 Outputs will be saved in the outputs/ folder:
@@ -52,13 +52,13 @@ top10_gdp.png → Top 10 GDP bar chart
 Example Output
 Top 10 Economies by GDP
 
-SQL Queries
+SQL Queries<br>
 You can query the SQLite database:
 SELECT * FROM Countries_by_GDP WHERE GDP_USD_billions >= 100;
 
 This will return all countries with GDP >= 100 Billion USD.
 
-**Technologies Used**
+**Technologies Used**<br>
 Python 3
 
 pandas, numpy – data manipulation
@@ -69,7 +69,7 @@ sqlite3 – database management
 
 matplotlib, seaborn – visualization
 
-Author
-Maneesh Reddy Yanala
-[GitHub](https://github.com/Maneesh3110/)
+Author<br>
+Maneesh Reddy Yanala<br>
+[GitHub](https://github.com/Maneesh3110/)<br>
 Passionate about Data Engineering & Application Development
